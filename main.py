@@ -14,7 +14,7 @@ def main():
     height, width = image.shape
 
     cell_width = width / num_cols
-    cell_height = cell_width * 2
+    cell_height = cell_width *2
     num_cols = int(width/cell_width)
 
     num_rows = int(height/cell_height)
